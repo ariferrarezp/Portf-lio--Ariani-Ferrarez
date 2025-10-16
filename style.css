@@ -1,0 +1,65 @@
+body /*corpo do texto*/{
+  font-family: Arial, sans-serif; /* Fonte da página */
+  margin:0; /* Remove margens padrão */
+  background-color: #f3dbeb;/* Fundo rosa claro */
+  color: #161516;/* Cor padrão do texto */
+}
+
+header /*cabeçario*/{
+  background-color: #333;/* Fundo escuro no cabeçalho */
+  color: rgb(255, 255, 255);/* Texto branco */
+  padding: 10px 0;/* Espaçamento interno */
+  text-align: center;/* Centraliza o texto */
+}
+
+.menu{
+  list-style: none;/* Remove marcadores da lista */
+  display: flex;/* Organiza os itens lado a lado */
+  justify-content: center;/* Centraliza os itens na horizontal */
+  gap: 20px; /* Espaço entre os links */
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  color: white; /* cor letra do menu*/
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: bold; /* Deixa o texto mais forte */
+}
+
+.menu a:hover {
+  color: #c73a8f; /* Muda a cor ao passar o mouse, deixa rosa escuro */ 
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  max-width: 900px;  /* Limita a largura do conteúdo para 900px */
+  margin: auto; /* Centraliza o main na tela */
+
+}
+
+figure img {
+  max-width: 100%;/* Garante que a imagem não ultrapasse o espaço */
+  height: auto;/* Mantém proporção */
+  display: block;/* Remove espaços em volta */
+  margin: 0 auto; /* Centraliza a imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  max-height: 250px; /* Altura máxima */
+}
+
+
+
+figcaption {
+  font-style: italic; /* Deixa a legenda em itálico */
+  color: #080104;/* Cor da legenda */
+  margin-top: 5px; }/* Espaço entre a imagem e o texto */
+
+
+footer {
+  background-color: #222;/* Fundo escuro do rodapé */
+  color: #a23d7a;/* Texto em rosa escuro */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;/* Distância do conteúdo anterior */
+}
